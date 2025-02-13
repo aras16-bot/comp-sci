@@ -41,6 +41,7 @@ class Graph:
             return []
         direct_friends = set(self.graph[member]['connections'].keys())
         suggested_friends = set()
+#adding a comment 
 
         for friend in direct_friends:
             friend_friends = set(self.graph[friend]['connections'].keys())
